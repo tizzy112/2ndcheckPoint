@@ -26,17 +26,19 @@ a:hover{
     font-weight: bold;
     font-style: italic;
     word-spacing: 1em;
+    flex-wrap: wrap;
 }
 .logo{
     width: 70px;
     height: 70px;
     margin-top: 35px;
     margin-left: 20px;
-    border-radius: 1px;
+    border-radius: 5px;
 }
 .hero_content_icon{
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
     
 }
 .hero_content_icon > div{
@@ -49,6 +51,7 @@ a:hover{
     margin-top: 70px;
     margin-left: 50px;
     background-color: aqua;
+    flex-wrap: wrap;
 }
 .section1{
     display: flex;
@@ -73,6 +76,17 @@ a:hover{
     justify-content: space-between;
 }
 */
+.section1 .aboutme .btn2{
+    background-color: red;
+    margin-left: 20px;
+    border-color: darkblue;
+}
+/* }
+.btn2{
+    color: red;
+    margin-left: 20px;
+} */
+
 .aboutme button{
     background-color: darkblue;
     padding: 5px;
@@ -107,7 +121,7 @@ a:hover{
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-auto-rows: minmax(150px auto);
-    grid-gap: 20px;
+    grid-gap: 30px;
     justify-content: center;
     margin-top: 200px;
     
